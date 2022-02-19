@@ -9,8 +9,14 @@
         <module name="Test_Cron" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Test_Cron" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="Test_Cron" target="1.11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Test_Cron" options="-parameters" />
+    </option>
   </component>
 </project>
