@@ -10,7 +10,7 @@ public class TestService {
     }
 
     public static void main(){
-        System.out.println("This is a commit of main branch");
-        System.out.println("new line");
+        System.out.println("This is a commit of main branches");
+        System.out.println("another new line");
     }
 }
