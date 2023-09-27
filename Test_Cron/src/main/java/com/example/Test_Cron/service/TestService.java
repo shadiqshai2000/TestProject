@@ -10,6 +10,6 @@ public class TestService {
     }
 
     public static void main(){
-        System.out.println("This is a commit of main branch");
+        System.out.println("This is a commit of uat branch");
     }
 }
